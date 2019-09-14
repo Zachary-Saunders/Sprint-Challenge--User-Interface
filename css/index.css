@@ -165,7 +165,7 @@ footer nav a {
     color: black;
 }
 
-.index-jumbo {
+.jumbo {
     margin-bottom: 20px;
 }
 
@@ -207,4 +207,16 @@ footer nav a {
 
 #box10 {
     background: dodgerblue;
+}
+
+/* My own Abou page-specific CSS below here */
+
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    width: 50%;
+    /* border: 1px solid black; */
 }
