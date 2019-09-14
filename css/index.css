@@ -144,3 +144,108 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* Everything under this is code that I wrote. */
+
+.index-header {
+    display: flex;
+    align-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.index-nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.index-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.jumbo {
+    margin-bottom: 20px;
+}
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+/* My own About page-specific CSS below here */
+.main-content {
+    /* margin: 0px 10px; */
+    /* margin-left: 30px; */
+}
+
+.about-paragraph {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    width: 50%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+button {
+    background: white;
+    color: black;
+    padding: 6px 20px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 16px;
+}
+
+.about-bottom-section {
+    margin-bottom: 40px;
+}
