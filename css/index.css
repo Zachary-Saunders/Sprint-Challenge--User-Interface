@@ -210,6 +210,11 @@ footer nav a {
 }
 
 /* My own Abou page-specific CSS below here */
+.about-paragraph {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 
 .about-cards {
     display: flex;
@@ -218,5 +223,15 @@ footer nav a {
 
 .about-card {
     width: 50%;
-    /* border: 1px solid black; */
+    border-bottom: 1px dashed black;
+}
+
+button {
+    background: white;
+    color: black;
+    padding: 6px 20px;
+    margin: 10px 0px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 16px;
 }
